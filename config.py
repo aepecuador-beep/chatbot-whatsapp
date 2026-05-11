@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # AI Configuration - Opciones
-AI_PROVIDER = os.getenv('AI_PROVIDER', 'openai')  # Opciones: 'openai', 'groq', 'cohere', 'huggingface'
+AI_PROVIDER = os.getenv('AI_PROVIDER', 'groq')  # Opciones: 'openai', 'groq', 'cohere', 'huggingface'
 
 # OpenAI (GPT-4 - MEJOR CALIDAD)
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')

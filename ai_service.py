@@ -48,6 +48,7 @@ class AIService:
                 
         except Exception as e:
             logger.error(f"❌ Error al inicializar cliente de IA: {e}")
+            raise  # Re-lanzar la excepción para que la aplicación no inicie con configuración incorrecta
             raise
     
     def get_response(self, messages: List[Dict[str, str]]) -> str:
