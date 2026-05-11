@@ -4,6 +4,6 @@ python-dotenv==1.0.0
 twilio==8.11.0
 gunicorn==21.2.0
 openai==1.54.0
-groq==0.11.0
+groq==0.13.0
 cohere==4.37
 huggingface-hub==0.20.1
